@@ -3,7 +3,7 @@ const router = express.Router();
 const botController = require("../controllers/botControllers")
 
 // Route to check if the bot is running
-router.get("/", (res, req) => {
+router.get("/", (req, res) => {
     res.send("Telegram Bot is running")
 })
 
